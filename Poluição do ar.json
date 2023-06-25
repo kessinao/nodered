@@ -1,0 +1,1230 @@
+[
+    {
+        "id": "9fbb1fd12a16d1fc",
+        "type": "tab",
+        "label": "Poluição do ar",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2ba8bb5e7935c93b",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "ec2kessiner.duckdns.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3c1b09fa4c168fdf",
+        "type": "ui_group",
+        "name": "Enxofre",
+        "tab": "3046f6ea24ac700b",
+        "order": 4,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": "[   {     \"id\": \"c04f5eeb.4e94d8\",     \"type\": \"function\",     \"z\": \"eae6a078.e5c798\",     \"name\": \"Poluição do Ar\",     \"func\": \"return msg;\",     \"outputs\": 1,     \"noerr\": 0,     \"x\": 390,     \"y\": 180,     \"wires\": [[\"8a54d717.94bde\"]]   } ]"
+    },
+    {
+        "id": "3046f6ea24ac700b",
+        "type": "ui_tab",
+        "name": "Niveis de poluição",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "49e8b92c2ca502d7",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#a91e56",
+                "baseFont": "Lucida Sans Unicode,Lucida Grande,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#6f154a",
+                "baseFont": "Impact,Impact,Charcoal,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#6f154a",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#6f154a",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#af2175",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#6f154a",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Impact,Impact,Charcoal,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "red",
+                "warn": "grey",
+                "background": "grey",
+                "palette": "dark"
+            }
+        },
+        "site": {
+            "name": " Detecção da Poluição do Ar",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "none",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b007859f7b041949",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a284fdaa38c18f81",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "641235355f36f5d7",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "93fae4f98fb26898",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dd885df6ad54c298",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "c99b4d50d24216dc",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d28ce36e84a59828",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e169516c809e1bb3",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d725af890aebfeb2",
+        "type": "ui_group",
+        "name": "Function",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1f4289d49a7e111e",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "embarcadosifsp.duckdns.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "7cdcce9548783569",
+        "type": "ui_group",
+        "name": "Gráfico",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5103c078a6235cd1",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "ea3aa6b359249740",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "172.31.82.140",
+        "port": "3306",
+        "db": "leituras_potenciometros",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "d96e3e5ad8781f01",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "poluicao_do_ar",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "52e566a8e8a7d7f5",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "172.31.82.140",
+        "port": "3306",
+        "db": "leituras_potenciometros",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "d504c800a5d6cf3a",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "172.31.82.140",
+        "port": "3306",
+        "db": "leituras_potenciometros",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "90e7d61d7c5fb981",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "poluicao_do_ar",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "d5ecfd40c4e3f384",
+        "type": "ui_group",
+        "name": "Ozonio",
+        "tab": "3046f6ea24ac700b",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": "[   {     \"id\": \"c04f5eeb.4e94d8\",     \"type\": \"function\",     \"z\": \"eae6a078.e5c798\",     \"name\": \"Poluição do Ar\",     \"func\": \"return msg;\",     \"outputs\": 1,     \"noerr\": 0,     \"x\": 390,     \"y\": 180,     \"wires\": [[\"8a54d717.94bde\"]]   } ]"
+    },
+    {
+        "id": "cd76db0c43b7b365",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "poluicao_do_ar",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "cd9cdc3546168975",
+        "type": "ui_tab",
+        "name": "Gráfico de risco",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "539d1acf377a8847",
+        "type": "ui_group",
+        "name": "Banco de dados",
+        "tab": "cd9cdc3546168975",
+        "order": 1,
+        "disp": true,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5fc1ca8d7f966b6e",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "172.31.82.140",
+        "port": "3306",
+        "db": "leituras_potenciometros",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "351e16d558943935",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "172.31.82.140",
+        "port": "3306",
+        "db": "leituras_potenciometros",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "f217da72ddb1de46",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "wilianjr.duckdns.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a1530e7a4f198358",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "nomedobanco",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "8e728d65d4d9d7e5",
+        "type": "ui_gauge",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "Medidor ozonio",
+        "group": "d5ecfd40c4e3f384",
+        "order": 3,
+        "width": 10,
+        "height": 5,
+        "gtype": "gage",
+        "title": "ozonio",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#d40808",
+            "#e6e600",
+            "#06a210"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 420,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "7eb87b6652ed9141",
+        "type": "ui_chart",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "Gráfico ozonio",
+        "group": "d5ecfd40c4e3f384",
+        "order": 2,
+        "width": 10,
+        "height": 6,
+        "label": "ozonio",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1e28b3",
+            "#aec7e8",
+            "#f58019",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 420,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "20ab2f36551ca539",
+        "type": "ui_led",
+        "z": "9fbb1fd12a16d1fc",
+        "order": 1,
+        "group": "d5ecfd40c4e3f384",
+        "width": 10,
+        "height": 2,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#ff0505",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED-Umid",
+        "x": 610,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2a7d786db3bb10e7",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "Turn On LED",
+        "func": "if (msg.payload >80) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "20ab2f36551ca539"
+            ]
+        ]
+    },
+    {
+        "id": "93310767807ddf5e",
+        "type": "mqtt in",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "topic": "esp32/ozonio",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "2ba8bb5e7935c93b",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "2a7d786db3bb10e7",
+                "7eb87b6652ed9141",
+                "8e728d65d4d9d7e5"
+            ]
+        ]
+    },
+    {
+        "id": "047840614941541a",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "dioxido_de_enxofre",
+        "func": "var dioxido_de_enxofre = msg.payload;\n\nmsg.dioxido_de_enxofre = dioxido_de_enxofre;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 380,
+        "wires": [
+            [
+                "12373119e50cc9f8"
+            ]
+        ]
+    },
+    {
+        "id": "752e675f5d8a5be2",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "ozonio",
+        "func": "var ozonio = msg.payload;\n\nmsg.ozonio = ozonio;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 440,
+        "wires": [
+            [
+                "12373119e50cc9f8"
+            ]
+        ]
+    },
+    {
+        "id": "12373119e50cc9f8",
+        "type": "join",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 470,
+        "y": 440,
+        "wires": [
+            [
+                "9c91d1b6c3a21d91"
+            ]
+        ]
+    },
+    {
+        "id": "9c91d1b6c3a21d91",
+        "type": "delay",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 440,
+        "wires": [
+            [
+                "a73de6acb1085094"
+            ]
+        ]
+    },
+    {
+        "id": "a73de6acb1085094",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "INSERT",
+        "func": "var dioxido_de_enxofre = msg.payload['esp32/dioxido_de_enxofre'] || 0;\nvar ozonio = msg.payload['esp32/ozonio'] || 0;\n\nmsg.topic = \"INSERT INTO poluicao_do_ar (dioxido_de_enxofre, ozonio, timestamp) VALUES (\" + dioxido_de_enxofre + \", \" + ozonio + \", CURRENT_TIMESTAMP);\"\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 440,
+        "wires": [
+            [
+                "b68bf5cd4f3e0675"
+            ]
+        ]
+    },
+    {
+        "id": "98ddbd4bf9caa196",
+        "type": "mqtt in",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "topic": "esp32/dioxido_de_enxofre",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "2ba8bb5e7935c93b",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 150,
+        "y": 380,
+        "wires": [
+            [
+                "047840614941541a"
+            ]
+        ]
+    },
+    {
+        "id": "1315438eb79c0619",
+        "type": "mqtt in",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "topic": "esp32/ozonio",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "2ba8bb5e7935c93b",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 110,
+        "y": 440,
+        "wires": [
+            [
+                "752e675f5d8a5be2"
+            ]
+        ]
+    },
+    {
+        "id": "b68bf5cd4f3e0675",
+        "type": "mysql",
+        "z": "9fbb1fd12a16d1fc",
+        "mydb": "d96e3e5ad8781f01",
+        "name": "conexao_mysql",
+        "x": 980,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d1aba10cb363f57",
+        "type": "mysql",
+        "z": "9fbb1fd12a16d1fc",
+        "mydb": "d96e3e5ad8781f01",
+        "name": "conexao_mysql",
+        "x": 440,
+        "y": 660,
+        "wires": [
+            [
+                "5893cc8359a0dd12"
+            ]
+        ]
+    },
+    {
+        "id": "05d6b8f607fe927a",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "DELET",
+        "func": "\nmsg.topic = \"Delete  FROM poluicao_do_ar ;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 660,
+        "wires": [
+            [
+                "4d1aba10cb363f57"
+            ]
+        ]
+    },
+    {
+        "id": "5893cc8359a0dd12",
+        "type": "debug",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "dados mysql",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "5db93ebc7e0cab7a",
+        "type": "inject",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 660,
+        "wires": [
+            [
+                "05d6b8f607fe927a"
+            ]
+        ]
+    },
+    {
+        "id": "08bffa7c2e8c8897",
+        "type": "inject",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 540,
+        "wires": [
+            [
+                "d62c2704f8f0b2b5"
+            ]
+        ]
+    },
+    {
+        "id": "d62c2704f8f0b2b5",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "SELECT",
+        "func": "msg.topic = \"SELECT dioxido_de_enxofre as dioxido_de_enxofre, ozonio as ozonio, timeStamp as timeStamp FROM poluicao_do_ar where timeStamp >= now() - 84600;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 540,
+        "wires": [
+            [
+                "7817a7046aa54e6b"
+            ]
+        ]
+    },
+    {
+        "id": "7817a7046aa54e6b",
+        "type": "mysql",
+        "z": "9fbb1fd12a16d1fc",
+        "mydb": "d96e3e5ad8781f01",
+        "name": "conexao_mysql",
+        "x": 440,
+        "y": 540,
+        "wires": [
+            [
+                "d63883b77939d2c5"
+            ]
+        ]
+    },
+    {
+        "id": "d63883b77939d2c5",
+        "type": "change",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "Format data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "(\t  $series := [\t    { \"label\": \"dioxido_de_enxofre (µg/m³)\", \"field\": \"dioxido_de_enxofre\" },\t    { \"label\": \"ozonio (µg/m³)\", \"field\": \"ozonio\" }\t  ];\t  $xaxis := \"timeStamp\";\t  [\t    {\t      \"series\": $series.label,\t      \"data\": $series.[\t        (\t          $yaxis := $.field;\t          $$.payload.{\t            \"x\": $lookup($, $xaxis),\t            \"y\": $lookup($, $yaxis)\t          }\t        )\t      ]\t    }\t  ]\t)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 540,
+        "wires": [
+            [
+                "3c0ad3ec879076cd"
+            ]
+        ]
+    },
+    {
+        "id": "3c0ad3ec879076cd",
+        "type": "ui_chart",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "24 hours data",
+        "group": "539d1acf377a8847",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "dioxido_de_enxofre e ozonio",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#078f05",
+            "#2d2da8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 820,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c264dd6dcee0378",
+        "type": "inject",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 600,
+        "wires": [
+            [
+                "d9cc8e5f665398a3"
+            ]
+        ]
+    },
+    {
+        "id": "d9cc8e5f665398a3",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "SELECT",
+        "func": "\nmsg.topic = \"SELECT * FROM poluicao_do_ar ORDER BY timestamp DESC LIMIT 10;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 600,
+        "wires": [
+            [
+                "45cc18ef8e6798ea"
+            ]
+        ]
+    },
+    {
+        "id": "45cc18ef8e6798ea",
+        "type": "mysql",
+        "z": "9fbb1fd12a16d1fc",
+        "mydb": "d96e3e5ad8781f01",
+        "name": "conexao_mysql",
+        "x": 440,
+        "y": 600,
+        "wires": [
+            [
+                "ec8ca747251427eb"
+            ]
+        ]
+    },
+    {
+        "id": "ec8ca747251427eb",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "Formatar Dados",
+        "func": "const formattedData = [];\n\nmsg.payload.forEach((row) => {\n    const formattedRow = {\n        hora: row.timeStamp,\n        dioxido_de_enxofre: row.dioxido_de_enxofre,\n        ozonio: row.ozonio\n    };\n    formattedData.push(formattedRow);\n});\n\nmsg.payload = formattedData;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 600,
+        "wires": [
+            [
+                "866e7d10ddb1b327"
+            ]
+        ]
+    },
+    {
+        "id": "866e7d10ddb1b327",
+        "type": "ui_template",
+        "z": "9fbb1fd12a16d1fc",
+        "group": "539d1acf377a8847",
+        "name": "Tabela com style",
+        "order": 2,
+        "width": 12,
+        "height": 7,
+        "format": "<div layout=\"row\" layout-align=\"start center\">\n  <span flex>Hora</span>\n  <span flex>dioxido_de_enxofre</span>\n  <span flex>ozonio</span>\n  \n</div>\n<div layout=\"row\" layout-align=\"start center\" ng-repeat=\"row in msg.payload\">\n  <span flex style=\"color: yellow\">{{row.hora}}</span>\n  <span flex style=\"color: green\">{{row.dioxido_de_enxofre}} µg/m³</span>\n  <span flex style=\"color: blue\">{{row.ozonio}} µg/m³</span>\n  \n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 830,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c33ce97acf58ccf7",
+        "type": "inject",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 710,
+        "y": 380,
+        "wires": [
+            [
+                "a73de6acb1085094"
+            ]
+        ]
+    },
+    {
+        "id": "090c11eef8dc644e",
+        "type": "mqtt in",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "",
+        "topic": "esp32/dioxido_de_enxofre",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "2ba8bb5e7935c93b",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 210,
+        "y": 80,
+        "wires": [
+            [
+                "d6b071780f466b53",
+                "f4572f21e01f8743",
+                "c38d32c10c24decf"
+            ]
+        ]
+    },
+    {
+        "id": "c38d32c10c24decf",
+        "type": "ui_gauge",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "Medidor enxofre",
+        "group": "3c1b09fa4c168fdf",
+        "order": 3,
+        "width": 10,
+        "height": 5,
+        "gtype": "gage",
+        "title": "enxofre",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 440,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f4572f21e01f8743",
+        "type": "ui_chart",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "Gráfico enxofre",
+        "group": "3c1b09fa4c168fdf",
+        "order": 2,
+        "width": 10,
+        "height": 6,
+        "label": "Enxofre",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1e37b3",
+            "#aec7e8",
+            "#e47311",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 440,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08f0506637062bf3",
+        "type": "ui_led",
+        "z": "9fbb1fd12a16d1fc",
+        "order": 1,
+        "group": "3c1b09fa4c168fdf",
+        "width": 10,
+        "height": 2,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#ff0505",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED-Temp",
+        "x": 610,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "d6b071780f466b53",
+        "type": "function",
+        "z": "9fbb1fd12a16d1fc",
+        "name": "Turn On LED",
+        "func": "if (msg.payload >20) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 40,
+        "wires": [
+            [
+                "08f0506637062bf3"
+            ]
+        ]
+    }
+]
